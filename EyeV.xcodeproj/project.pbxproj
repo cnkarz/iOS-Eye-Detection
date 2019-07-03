@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD58406987037421EEE6E1C /* Pods_EyeVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C7E8D999DC503FA6F014B5 /* Pods_EyeVTests.framework */; };
+		556446AD258EF1271A97912B /* Pods_EyeV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F53151E055E6FB7E5C28483 /* Pods_EyeV.framework */; };
+		8495482930E100A6C32B2D2E /* Pods_EyeVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357A8AC1087874AEF902754F /* Pods_EyeVUITests.framework */; };
+		FA672E75222E6D2A00BC9DCA /* devlet_success.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA672E74222E6D2A00BC9DCA /* devlet_success.jpg */; };
+		FA672E77222E6F5400BC9DCA /* devlet_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = FA672E76222E6F5400BC9DCA /* devlet_fail.png */; };
+		FA672E79222EB98600BC9DCA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA672E78222EB98600BC9DCA /* ResultViewController.swift */; };
+		FA85A98021FF34010079FCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A97F21FF34010079FCCF /* AppDelegate.swift */; };
+		FA85A98221FF34010079FCCF /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A98121FF34010079FCCF /* IndexViewController.swift */; };
+		FA85A98521FF34010079FCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85A98321FF34010079FCCF /* Main.storyboard */; };
+		FA85A98721FF34050079FCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA85A98621FF34050079FCCF /* Assets.xcassets */; };
+		FA85A98A21FF34050079FCCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85A98821FF34050079FCCF /* LaunchScreen.storyboard */; };
+		FA85A99521FF34050079FCCF /* EyeVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A99421FF34050079FCCF /* EyeVTests.swift */; };
+		FA85A9A021FF34050079FCCF /* EyeVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A99F21FF34050079FCCF /* EyeVUITests.swift */; };
+		FA85A9AF21FF433C0079FCCF /* LaunchScreenBG.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85A9AE21FF433C0079FCCF /* LaunchScreenBG.png */; };
+		FA85A9B121FF45800079FCCF /* LaunchScreenBGwName.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85A9B021FF45800079FCCF /* LaunchScreenBGwName.png */; };
+		FA85A9B521FF4B210079FCCF /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A9B421FF4B210079FCCF /* AuthenticationViewController.swift */; };
+		FA85A9B721FF4BAB0079FCCF /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A9B621FF4BAB0079FCCF /* PreviewView.swift */; };
+		FA85A9B921FF4BB80079FCCF /* EyeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A9B821FF4BB80079FCCF /* EyeCircleView.swift */; };
+		FA85A9BE21FF4ED60079FCCF /* CryptographyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85A9BD21FF4ED60079FCCF /* CryptographyModel.swift */; };
+		FA85A9FC220B10900079FCCF /* LoginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85A9FB220B10900079FCCF /* LoginButton.png */; };
+		FA85A9FE220B11850079FCCF /* CybersoftLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA85A9FD220B11810079FCCF /* CybersoftLogo.png */; };
+		FA85AA03221544FB0079FCCF /* HTTPConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85AA02221544FB0079FCCF /* HTTPConnectionModel.swift */; };
+		FA85AA05221695EE0079FCCF /* FileHandlerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85AA04221695EE0079FCCF /* FileHandlerModel.swift */; };
+		FA85AA09221D32980079FCCF /* ImageProcessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85AA08221D32980079FCCF /* ImageProcessorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA85A99121FF34050079FCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA85A97421FF34010079FCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA85A97B21FF34010079FCCF;
+			remoteInfo = EyeV;
+		};
+		FA85A99C21FF34050079FCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA85A97421FF34010079FCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA85A97B21FF34010079FCCF;
+			remoteInfo = EyeV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFC9BFAD19A1C04E44A8243 /* Pods-EyeV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeV.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyeV/Pods-EyeV.release.xcconfig"; sourceTree = "<group>"; };
+		357A8AC1087874AEF902754F /* Pods_EyeVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F53151E055E6FB7E5C28483 /* Pods_EyeV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7250285395FD6E7F85E8CC09 /* Pods-EyeVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyeVTests/Pods-EyeVTests.release.xcconfig"; sourceTree = "<group>"; };
+		90A48B39EF4633FED7F91067 /* Pods-EyeV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyeV/Pods-EyeV.debug.xcconfig"; sourceTree = "<group>"; };
+		99C7E8D999DC503FA6F014B5 /* Pods_EyeVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B0CBEDF2C2B7D69C2B7C63 /* Pods-EyeVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EyeVUITests/Pods-EyeVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A82DECAE45F486F5045DBEE8 /* Pods-EyeVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyeVUITests/Pods-EyeVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA5509019348CB818BC025BF /* Pods-EyeVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EyeVTests/Pods-EyeVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA672E74222E6D2A00BC9DCA /* devlet_success.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = devlet_success.jpg; sourceTree = "<group>"; };
+		FA672E76222E6F5400BC9DCA /* devlet_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devlet_fail.png; sourceTree = "<group>"; };
+		FA672E78222EB98600BC9DCA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		FA85A97C21FF34010079FCCF /* EyeV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85A97F21FF34010079FCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA85A98121FF34010079FCCF /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		FA85A98421FF34010079FCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA85A98621FF34050079FCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA85A98921FF34050079FCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA85A98B21FF34050079FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA85A99021FF34050079FCCF /* EyeVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85A99421FF34050079FCCF /* EyeVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeVTests.swift; sourceTree = "<group>"; };
+		FA85A99621FF34050079FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA85A99B21FF34050079FCCF /* EyeVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85A99F21FF34050079FCCF /* EyeVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeVUITests.swift; sourceTree = "<group>"; };
+		FA85A9A121FF34050079FCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA85A9AE21FF433C0079FCCF /* LaunchScreenBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenBG.png; sourceTree = "<group>"; };
+		FA85A9B021FF45800079FCCF /* LaunchScreenBGwName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenBGwName.png; sourceTree = "<group>"; };
+		FA85A9B421FF4B210079FCCF /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		FA85A9B621FF4BAB0079FCCF /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		FA85A9B821FF4BB80079FCCF /* EyeCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCircleView.swift; sourceTree = "<group>"; };
+		FA85A9BD21FF4ED60079FCCF /* CryptographyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptographyModel.swift; sourceTree = "<group>"; };
+		FA85A9FB220B10900079FCCF /* LoginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginButton.png; sourceTree = "<group>"; };
+		FA85A9FD220B11810079FCCF /* CybersoftLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CybersoftLogo.png; sourceTree = "<group>"; };
+		FA85AA02221544FB0079FCCF /* HTTPConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPConnectionModel.swift; sourceTree = "<group>"; };
+		FA85AA04221695EE0079FCCF /* FileHandlerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandlerModel.swift; sourceTree = "<group>"; };
+		FA85AA08221D32980079FCCF /* ImageProcessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA85A97921FF34010079FCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556446AD258EF1271A97912B /* Pods_EyeV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A98D21FF34050079FCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD58406987037421EEE6E1C /* Pods_EyeVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A99821FF34050079FCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495482930E100A6C32B2D2E /* Pods_EyeVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D6BDE9089F6C2D3EEE3114 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90A48B39EF4633FED7F91067 /* Pods-EyeV.debug.xcconfig */,
+				1AFC9BFAD19A1C04E44A8243 /* Pods-EyeV.release.xcconfig */,
+				CA5509019348CB818BC025BF /* Pods-EyeVTests.debug.xcconfig */,
+				7250285395FD6E7F85E8CC09 /* Pods-EyeVTests.release.xcconfig */,
+				A82DECAE45F486F5045DBEE8 /* Pods-EyeVUITests.debug.xcconfig */,
+				A2B0CBEDF2C2B7D69C2B7C63 /* Pods-EyeVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA85A97321FF34010079FCCF = {
+			isa = PBXGroup;
+			children = (
+				FA85A9AD21FF42BD0079FCCF /* Assets */,
+				FA85A97E21FF34010079FCCF /* EyeV */,
+				FA85A99321FF34050079FCCF /* EyeVTests */,
+				FA85A99E21FF34050079FCCF /* EyeVUITests */,
+				FA85A97D21FF34010079FCCF /* Products */,
+				FA85A9DA220030D70079FCCF /* Frameworks */,
+				19D6BDE9089F6C2D3EEE3114 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FA85A97D21FF34010079FCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A97C21FF34010079FCCF /* EyeV.app */,
+				FA85A99021FF34050079FCCF /* EyeVTests.xctest */,
+				FA85A99B21FF34050079FCCF /* EyeVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA85A97E21FF34010079FCCF /* EyeV */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A97F21FF34010079FCCF /* AppDelegate.swift */,
+				FA85A9BA21FF4D620079FCCF /* Model */,
+				FA85A9BB21FF4D680079FCCF /* View */,
+				FA85A9BC21FF4D6E0079FCCF /* Controller */,
+				FA85A98321FF34010079FCCF /* Main.storyboard */,
+				FA85A98621FF34050079FCCF /* Assets.xcassets */,
+				FA85A98821FF34050079FCCF /* LaunchScreen.storyboard */,
+				FA85A98B21FF34050079FCCF /* Info.plist */,
+			);
+			path = EyeV;
+			sourceTree = "<group>";
+		};
+		FA85A99321FF34050079FCCF /* EyeVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A99421FF34050079FCCF /* EyeVTests.swift */,
+				FA85A99621FF34050079FCCF /* Info.plist */,
+			);
+			path = EyeVTests;
+			sourceTree = "<group>";
+		};
+		FA85A99E21FF34050079FCCF /* EyeVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A99F21FF34050079FCCF /* EyeVUITests.swift */,
+				FA85A9A121FF34050079FCCF /* Info.plist */,
+			);
+			path = EyeVUITests;
+			sourceTree = "<group>";
+		};
+		FA85A9AD21FF42BD0079FCCF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A9AE21FF433C0079FCCF /* LaunchScreenBG.png */,
+				FA85A9FB220B10900079FCCF /* LoginButton.png */,
+				FA672E76222E6F5400BC9DCA /* devlet_fail.png */,
+				FA672E74222E6D2A00BC9DCA /* devlet_success.jpg */,
+				FA85A9FD220B11810079FCCF /* CybersoftLogo.png */,
+				FA85A9B021FF45800079FCCF /* LaunchScreenBGwName.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FA85A9BA21FF4D620079FCCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A9BD21FF4ED60079FCCF /* CryptographyModel.swift */,
+				FA85AA02221544FB0079FCCF /* HTTPConnectionModel.swift */,
+				FA85AA04221695EE0079FCCF /* FileHandlerModel.swift */,
+				FA85AA08221D32980079FCCF /* ImageProcessorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA85A9BB21FF4D680079FCCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A9B821FF4BB80079FCCF /* EyeCircleView.swift */,
+				FA85A9B621FF4BAB0079FCCF /* PreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA85A9BC21FF4D6E0079FCCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA85A98121FF34010079FCCF /* IndexViewController.swift */,
+				FA85A9B421FF4B210079FCCF /* AuthenticationViewController.swift */,
+				FA672E78222EB98600BC9DCA /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA85A9DA220030D70079FCCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F53151E055E6FB7E5C28483 /* Pods_EyeV.framework */,
+				99C7E8D999DC503FA6F014B5 /* Pods_EyeVTests.framework */,
+				357A8AC1087874AEF902754F /* Pods_EyeVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA85A97B21FF34010079FCCF /* EyeV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA85A9A421FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeV" */;
+			buildPhases = (
+				E4C1573C86703126855401CC /* [CP] Check Pods Manifest.lock */,
+				FA85A97821FF34010079FCCF /* Sources */,
+				FA85A97921FF34010079FCCF /* Frameworks */,
+				FA85A97A21FF34010079FCCF /* Resources */,
+				E960063139BE0935DAA69347 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeV;
+			productName = EyeV;
+			productReference = FA85A97C21FF34010079FCCF /* EyeV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA85A98F21FF34050079FCCF /* EyeVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA85A9A721FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeVTests" */;
+			buildPhases = (
+				F974F35A0EDDE379AA7D5410 /* [CP] Check Pods Manifest.lock */,
+				FA85A98C21FF34050079FCCF /* Sources */,
+				FA85A98D21FF34050079FCCF /* Frameworks */,
+				FA85A98E21FF34050079FCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA85A99221FF34050079FCCF /* PBXTargetDependency */,
+			);
+			name = EyeVTests;
+			productName = EyeVTests;
+			productReference = FA85A99021FF34050079FCCF /* EyeVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA85A99A21FF34050079FCCF /* EyeVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA85A9AA21FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeVUITests" */;
+			buildPhases = (
+				D46C8273222537368BC31096 /* [CP] Check Pods Manifest.lock */,
+				FA85A99721FF34050079FCCF /* Sources */,
+				FA85A99821FF34050079FCCF /* Frameworks */,
+				FA85A99921FF34050079FCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA85A99D21FF34050079FCCF /* PBXTargetDependency */,
+			);
+			name = EyeVUITests;
+			productName = EyeVUITests;
+			productReference = FA85A99B21FF34050079FCCF /* EyeVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA85A97421FF34010079FCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Cenk Arioz";
+				TargetAttributes = {
+					FA85A97B21FF34010079FCCF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FA85A98F21FF34050079FCCF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA85A97B21FF34010079FCCF;
+					};
+					FA85A99A21FF34050079FCCF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA85A97B21FF34010079FCCF;
+					};
+				};
+			};
+			buildConfigurationList = FA85A97721FF34010079FCCF /* Build configuration list for PBXProject "EyeV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA85A97321FF34010079FCCF;
+			productRefGroup = FA85A97D21FF34010079FCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA85A97B21FF34010079FCCF /* EyeV */,
+				FA85A98F21FF34050079FCCF /* EyeVTests */,
+				FA85A99A21FF34050079FCCF /* EyeVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA85A97A21FF34010079FCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85A9FC220B10900079FCCF /* LoginButton.png in Resources */,
+				FA85A98A21FF34050079FCCF /* LaunchScreen.storyboard in Resources */,
+				FA85A9AF21FF433C0079FCCF /* LaunchScreenBG.png in Resources */,
+				FA672E77222E6F5400BC9DCA /* devlet_fail.png in Resources */,
+				FA85A98721FF34050079FCCF /* Assets.xcassets in Resources */,
+				FA85A9B121FF45800079FCCF /* LaunchScreenBGwName.png in Resources */,
+				FA85A98521FF34010079FCCF /* Main.storyboard in Resources */,
+				FA85A9FE220B11850079FCCF /* CybersoftLogo.png in Resources */,
+				FA672E75222E6D2A00BC9DCA /* devlet_success.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A98E21FF34050079FCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A99921FF34050079FCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D46C8273222537368BC31096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C1573C86703126855401CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E960063139BE0935DAA69347 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EyeV/Pods-EyeV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EyeV/Pods-EyeV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F974F35A0EDDE379AA7D5410 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA85A97821FF34010079FCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85AA05221695EE0079FCCF /* FileHandlerModel.swift in Sources */,
+				FA85A9B921FF4BB80079FCCF /* EyeCircleView.swift in Sources */,
+				FA85A9BE21FF4ED60079FCCF /* CryptographyModel.swift in Sources */,
+				FA85A98221FF34010079FCCF /* IndexViewController.swift in Sources */,
+				FA85AA09221D32980079FCCF /* ImageProcessorModel.swift in Sources */,
+				FA672E79222EB98600BC9DCA /* ResultViewController.swift in Sources */,
+				FA85A9B721FF4BAB0079FCCF /* PreviewView.swift in Sources */,
+				FA85A9B521FF4B210079FCCF /* AuthenticationViewController.swift in Sources */,
+				FA85A98021FF34010079FCCF /* AppDelegate.swift in Sources */,
+				FA85AA03221544FB0079FCCF /* HTTPConnectionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A98C21FF34050079FCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85A99521FF34050079FCCF /* EyeVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA85A99721FF34050079FCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA85A9A021FF34050079FCCF /* EyeVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA85A99221FF34050079FCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA85A97B21FF34010079FCCF /* EyeV */;
+			targetProxy = FA85A99121FF34050079FCCF /* PBXContainerItemProxy */;
+		};
+		FA85A99D21FF34050079FCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA85A97B21FF34010079FCCF /* EyeV */;
+			targetProxy = FA85A99C21FF34050079FCCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA85A98321FF34010079FCCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA85A98421FF34010079FCCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA85A98821FF34050079FCCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA85A98921FF34050079FCCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA85A9A221FF34050079FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA85A9A321FF34050079FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA85A9A521FF34050079FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A48B39EF4633FED7F91067 /* Pods-EyeV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA85A9A621FF34050079FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC9BFAD19A1C04E44A8243 /* Pods-EyeV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA85A9A821FF34050079FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5509019348CB818BC025BF /* Pods-EyeVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeV.app/EyeV";
+			};
+			name = Debug;
+		};
+		FA85A9A921FF34050079FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7250285395FD6E7F85E8CC09 /* Pods-EyeVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeV.app/EyeV";
+			};
+			name = Release;
+		};
+		FA85A9AB21FF34050079FCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82DECAE45F486F5045DBEE8 /* Pods-EyeVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeV;
+			};
+			name = Debug;
+		};
+		FA85A9AC21FF34050079FCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B0CBEDF2C2B7D69C2B7C63 /* Pods-EyeVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F52NHQ8867;
+				INFOPLIST_FILE = EyeVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EyeVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyeV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA85A97721FF34010079FCCF /* Build configuration list for PBXProject "EyeV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA85A9A221FF34050079FCCF /* Debug */,
+				FA85A9A321FF34050079FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA85A9A421FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA85A9A521FF34050079FCCF /* Debug */,
+				FA85A9A621FF34050079FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA85A9A721FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA85A9A821FF34050079FCCF /* Debug */,
+				FA85A9A921FF34050079FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA85A9AA21FF34050079FCCF /* Build configuration list for PBXNativeTarget "EyeVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA85A9AB21FF34050079FCCF /* Debug */,
+				FA85A9AC21FF34050079FCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA85A97421FF34010079FCCF /* Project object */;
+}
